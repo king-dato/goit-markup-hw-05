@@ -625,7 +625,8 @@ img {
   height: 100%;
   background-color: rgba(46, 47, 66, 0.4);
   opacity: 1;
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .is-hidden {
   opacity: 0;
@@ -670,6 +671,9 @@ img {
 .datamodalclose:focus {
   background-color: #404bbf;
   border: none;
+}
+.modalclosesvg {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modalclosesvg:hover {
   fill: #ffffff;
