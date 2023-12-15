@@ -668,6 +668,7 @@ img {
   border: none;
 }
 .datamodalclose:focus {
+  background-color: #404bbf;
   border: none;
 }
 .modalclosesvg:hover {
