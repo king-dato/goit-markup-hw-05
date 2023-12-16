@@ -678,20 +678,13 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.datamodalclose:hover {
-  background-color: #404bbf;
-  border: none;
-}
+.datamodalclose:hover,
 .datamodalclose:focus {
   background-color: #404bbf;
   border: none;
+  fill: #ffffff;
 }
 .modalclosesvg {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.modalclosesvg:hover {
-  fill: #ffffff;
-}
-.modalclosesvg:focus {
-  fill: #ffffff;
+  fill: currentColor;
 }
