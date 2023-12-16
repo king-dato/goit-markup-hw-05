@@ -243,13 +243,14 @@ address {
   background-color: #4d5ae5;
   border-radius: 4px;
   cursor: pointer;
-  background-color: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  background-color: #404bbf;
 }
 .btn-sec:hover {
-  background-color: #404bbf;
+  
+  background-color: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .btn-sec:focus {
-  background-color: #404bbf;
+  background-color: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .sect-two {
   padding: 120px 0;
@@ -475,10 +476,10 @@ address {
   justify-content: center;
 }
 .sociallink-footer:hover {
-  background-color: #31d0aa;
+  background-color:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .sociallink-footer:focus {
-  background-color: #31d0aa;
+  background-color: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* this content is portfolio */
