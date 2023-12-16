@@ -346,8 +346,7 @@ address {
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .ourteam-socialmedia:hover {
   background-color: #404bbf;
@@ -391,6 +390,8 @@ address {
   align-items: center;
   justify-content: center;
   color: #8e8f99;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .fifthsection-link:hover {
   border-color: #404bbf;
