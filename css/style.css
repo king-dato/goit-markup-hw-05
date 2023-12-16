@@ -247,7 +247,6 @@ address {
 }
 .btn-sec:hover {
   background-color: #404bbf;
-  
 }
 .btn-sec:focus {
   background-color: #404bbf;
@@ -687,7 +686,15 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.datamodalclose:hover {
+  background-color: var(--ocean-color);
+  border: none;
+}
 
+.datamodalclose:focus {
+  background-color: var(--ocean-color);
+  border: none;
+}
 .modalclosesvg {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   fill: currentColor;
