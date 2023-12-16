@@ -687,7 +687,7 @@ img {
 .modal-close:hover,
 .modal-close:focus {
   background-color: var(--ocean);
-  fill: var(--white);
+  color: var(--white);
   border: none;
 }
 
